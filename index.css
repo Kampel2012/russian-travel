@@ -56,9 +56,17 @@
   line-height: 28px;
 }
 
+.header__lang-link {
+  color: #fff;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
 .header__lang-link:hover {
   opacity: 0.8;
 }
+
 
 .header__lang-link_active {
   text-decoration: underline;
@@ -184,10 +192,10 @@
 }
 
 .place__website-url-heading {
-  margin: 0;
-  padding: 0 0 12px 0;
+  margin: 0 0 12px 0;
+  padding: 0;
   font-size: 12px;
-  line-height: 12px;
+  line-height: 20px;
   font-weight: 400;
   letter-spacing: 2px;
   color: #AAA;
@@ -200,6 +208,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
+  text-underline-offset: 4px;
 }
 
 .place__website-link:hover {
