@@ -101,7 +101,7 @@
 
 .lead__image {
   display: block;
-  margin: 0 148px;
+  margin: 0 auto;
   padding: 0;
   max-width: 984px;
 }
@@ -236,12 +236,13 @@
 }
 
 .cover__wrapper {
-  margin: 0 48px;
+  margin: 0 auto;
   background-image: url('./img/cover-trains.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   max-width: 1184px;
   position: relative;
+
 }
 
 .cover__title {
@@ -318,4 +319,32 @@
 
 .footer__link:hover {
   opacity: 0.8;
+}
+
+
+
+@media screen and (max-width: 1180px) { 
+  .page {
+    background-color: #1f5cb8;
+  }
+  .lead__image {
+    max-width: 928px;
+  }
+  .intro__title {
+    margin-left: 48px;
+    margin-right: auto;
+  }
+  .intro__text {
+    margin-left: 48px;
+    margin-right: auto;
+  }
+  .intro__list {
+    margin-left: 48px;
+    margin-right: auto;
+  }  
+  .place {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+
 }
