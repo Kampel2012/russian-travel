@@ -242,7 +242,6 @@
   background-repeat: no-repeat;
   max-width: 1184px;
   position: relative;
-
 }
 
 .cover__title {
@@ -322,7 +321,6 @@
 }
 
 
-
 @media screen and (max-width: 1180px) { 
   .page {
     background-color: #1f5cb8;
@@ -347,4 +345,16 @@
     margin-right: 48px;
   }
 
+  .cover__title {
+    padding: 245px 0 0 0;
+  }
+  
+  .cover__subtitle {
+    padding: 0 0 245px 0;
+  }
+}
+
+@media screen and (max-width: 1180px) {  
+
+  
 }
