@@ -216,7 +216,7 @@
 }
 
 .place__image {
-  max-width: 460px;
+  max-width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -344,17 +344,25 @@
     margin-left: 48px;
     margin-right: 48px;
   }
+}
+
+@media screen and (max-width: 1024px) {  
+  .photo-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
 
   .cover__title {
-    padding: 245px 0 0 0;
+    padding: 195px 0 0 0;
   }
   
   .cover__subtitle {
-    padding: 0 0 245px 0;
+    padding: 0 0 195px 0;
   }
-}
 
-@media screen and (max-width: 1180px) {  
+  .place {
+    grid-template-columns: 440px 1fr;
+    gap: 48px 32px;
+  }
 
-  
 }
