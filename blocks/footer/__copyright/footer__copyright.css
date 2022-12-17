@@ -1,0 +1,33 @@
+.footer__copyright {
+  margin: 0 48px 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 850px) { 
+  .footer__copyright {
+    margin: 0 24px 0 0;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .footer__copyright {
+    margin: 0 16px 0 0;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .footer__copyright {
+    margin: 16px 0 0 0;
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 500px) {   
+  .footer__copyright {
+    text-align: start;
+    padding-left: 16px;
+  }
+
+}

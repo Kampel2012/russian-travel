@@ -1,0 +1,55 @@
+.cover__subtitle {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 0 245px 0;
+  text-align: center;
+  max-width: 360px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1024px) {  
+  .cover__subtitle {
+    padding: 0 0 195px 0;
+  }
+}
+
+@media screen and (max-width: 850px) { 
+  .cover__subtitle {
+    padding: 0 0 115px 0;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .cover__subtitle {
+    padding: 0 0 100px 0;
+    margin: 0 auto 16px auto;
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {   
+  .cover__subtitle {
+    padding: 0 0 70px 0;
+    margin: 0 auto 16px auto;
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .cover__subtitle {
+    padding: 0 0 70px 0;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .cover__subtitle {
+    padding: 0 0 33px 0;
+  }
+}
