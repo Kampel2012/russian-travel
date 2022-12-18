@@ -1,4 +1,4 @@
-My second project in Yandex.Practicum 🎃
+# My second project in Yandex.Practicum 🎃
 
 ## ***Описание***
 
@@ -10,21 +10,19 @@ ____
 
 :bookmark_tabs: Использованные технологии:
 
+:white_check_mark: Flexbox
 <br>
-<br>
-:white_check_mark: `Flexbox`
-<br>
-:white_check_mark: `Grid`
+:white_check_mark: Grid
 <br>
 ____
 
 :zap: Работа выполнена по методолгии `БЭМ (Nested)` :fire:
-
 ____
 
 Планы по доработке: :pencil2:
 <br>
 :black_square_button: Добавить JS анимации
+<br>
 :black_square_button: Добавить переключение языка (JS)
 
 ____
