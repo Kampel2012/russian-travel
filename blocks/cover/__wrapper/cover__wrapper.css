@@ -5,4 +5,39 @@
   background-repeat: no-repeat;
   max-width: 1184px;
   position: relative;
+  min-height: 740px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__wrapper {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .cover__wrapper {
+    min-height: 580px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cover__wrapper {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .cover__wrapper {
+    min-height: 350px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .cover__wrapper {
+    min-height: 200px;
+  }
 }
