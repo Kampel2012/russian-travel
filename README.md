@@ -1,4 +1,4 @@
-# My second project in Yandex.Practicum 🎃
+# Website Russian-travel от Yandex.Practicum 🎃 
 
 ## Ссылка на gitHubPages - https://kampel2012.github.io/russian-travel/
 
