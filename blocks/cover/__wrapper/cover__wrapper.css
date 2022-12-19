@@ -1,5 +1,6 @@
 .cover__wrapper {
   margin: 0 auto;
+  padding: auto;
   background-image: url('../../../images/cover-trains.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -10,6 +11,8 @@
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
+  text-decoration: none;
+  color: #fff;
 }
 
 @media screen and (max-width: 1024px) {

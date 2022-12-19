@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-@media screen and (max-width: 850px) { 
+@media screen and (max-width: 850px) {
   .footer__copyright {
     margin: 0 24px 0 0;
     padding: 0;
@@ -24,10 +24,12 @@
 }
 
 
-@media screen and (max-width: 500px) {   
+@media screen and (max-width: 500px) {
   .footer__copyright {
     text-align: start;
     padding-left: 16px;
+    margin-top: 48px;
+    font-size: 14px;
+    line-height: 14px;
   }
-
 }

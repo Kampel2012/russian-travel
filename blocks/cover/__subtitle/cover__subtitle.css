@@ -18,17 +18,8 @@
   }
 }
 
-@media screen and (max-width: 500px) {
-  .cover__subtitle {
-    margin: 0 auto 16px auto;
-    font-size: 16px;
-    line-height: 16px;
-  }
-}
-
 @media screen and (max-width: 420px) {
   .cover__subtitle {
     font-size: 14px;
-    line-height: 16px;
   }
 }

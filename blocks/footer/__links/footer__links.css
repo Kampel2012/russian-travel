@@ -1,0 +1,33 @@
+.footer__links {
+  margin: 0 0 0 48px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 18px;
+  list-style: none;
+}
+
+@media screen and (max-width: 850px) {
+  .footer__links {
+    margin: 0 0 0 24px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .footer__links {
+    margin: 0 0 0 16px;
+    column-gap: 10px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .footer__links {
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__links {
+    display: block;
+  }
+}
